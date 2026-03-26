@@ -10,27 +10,40 @@
 </head>
 <body>
 <header>
-        <nav>
-            <ul>
-           <a href="index.html">Inicio</a> | <a href="productos.html">Productos</a> | <a href="servicios.html">Servicios</a> | <a href="contacto.html">Contacto</a></li>
+        <nav class="navbar">
+           <div class="logo">Domotiq Perú</div> 
+           <ul class="menu">       
+               <li><a href="index.html">Inicio</a></li>
+               <li><a href="productos.html">Productos</a></li>
+               <li><a href="servicios.html">Servicios</a></li>
+               <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <hr>
-    </header>
+</header>
 
-    <h1>Catálogo de Equipos Disponibles</h1>
-<h2>Las ultimas laptos</h2>
-        <img src="img/pc1.jpg" alt="pc1" width="264" height="320">
-        <img src="img/pc2.jpg" alt="pc2" width="264" height="320">
-        <img src="img/pc3.jpg" alt="pc3" width="264" height="320">
-        <img src="img/pc4.jpg" alt="pc4" width="264" height="320">
-<h2>Nuestra linea de Computadoras</h2>
-        <img src="img/laptop1.jpg" alt="laptop1" width="264" height="320">
-        <img src="img/laptop2.jpg" alt="laptop2" width="264" height="320">
-        <img src="img/laptop3.jpg" alt="laptop3" width="264" height="320">
-        <img src="img/laptop4.jpg" alt="laptop4" width="264" height="320">
+<main class="container">
+    <section class="seccion-productos">
+        <h1>Catálogo de Equipos Disponibles</h1>
+ 
+        <h2>Las ultimas laptos</h2>
+        <div class="galeria-grid">
+            <img src="img/pc1.jpg" alt="pc1">
+            <img src="img/pc2.jpg" alt="pc2">
+            <img src="img/pc3.jpg" alt="pc3">
+            <img src="img/pc4.jpg" alt="pc4">
+         </div>
+
+        <h2>Nuestra linea de Computadoras</h2>
+        <div class="galeria-grid">
+           <img src="img/laptop1.jpg" alt="laptop1">
+           <img src="img/laptop2.jpg" alt="laptop2">
+           <img src="img/laptop3.jpg" alt="laptop3">
+           <img src="img/laptop4.jpg" alt="laptop4">
+        </div>
+    </section>
     
-    <table border="1">
+    <section class="seccion-tabla">
+       <table class="tabla-stock">
         <caption>Stock Actualizado - Lima 2026</caption>
         <thead>
             <tr>
@@ -55,34 +68,26 @@
             </tr>
         </tbody>
     </table>
+    </section>
 
 
-    <p><a href="index.html">Volver al inicio</a></p>
-
-    <br>
-<br>
-<br>
-<br>
-<br>
+    <div class="volver">
+       <a href="index.html">Volver al inicio</a>
+    </div> 
+</main> 
     <footer>
-
-        <div class="enlaces-inferiores">
-             <a href="libro-reclamaciones.html" title="Ir al Libro de Reclamaciones Virtual" target="_blank" class="enlace-item">
-               <img src="img/libro_de_reclamaciones.jpg" alt="Libro de reclamaciones" class="icono-footer" width="80" >
-            Libro de reclamaciones
+         <div class="enlaces-inferiores">
+             <a href="libro-reclamaciones.html" target="_blank" class="enlace-item">
+               <img src="img/libro_de_reclamaciones.jpg" alt="Libro" width="50" >
+               <span>Libro de reclamaciones</span>
              </a>
-             <a href="https://www.facebook.com/sercoplus" target="_blank" rel="noopener" title="Visita nuestro Facebook" class="enlace-item">
-              <img src="img/face.png" alt="Síguenos en Facebook" class="icono-footer" width="80">
-             </a> 
-
-             <a href="https://wa.me/51977213850" target="_blank" rel="noopener" title="Contáctanos por WhatsApp" class="enlace-item">
-              <img src="img/whatsapp.jpeg" alt="WhatsApp" class="icono-footer" width="60">
-              <a href="contacto.html">Contáctanos</a>
-              </a>
-        </div>
-
-        <hr>
-            <p> 2026 Perú - Todos los derechos reservados.</p>
-        </footer>   
+             <div class="redes-sociales">
+                 <a href="https://www.facebook.com/sercoplus" target="_blank"><img src="img/face.png" width="40"></a>
+                 <a href="https://wa.me/51977213850" target="_blank"><img src="img/whatsapp.jpeg" width="40"></a>
+             </div>
+         </div>
+    <hr>
+    <p>&copy; 2026 Perú - Todos los derechos reservados.</p>
+    </footer>   
 </body>
 </html>
